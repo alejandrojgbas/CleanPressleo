@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="180dp"
+    android:layout_height="90dp"
+    android:orientation="horizontal"
+    android:background="@drawable/round_corner_popup_support"
+    android:paddingRight="10dp"
+    android:paddingLeft="10dp"
+    android:layout_marginLeft="30dp"
+    >
+
+    <!--<TextView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:id="@+id/twitter_icon"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/twiter"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:id="@+id/fb_icon"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/facebook"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"/>-->
+
+
+</LinearLayout>

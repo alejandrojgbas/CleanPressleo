@@ -1,0 +1,109 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff">
+    <LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    tools:context="cleanpress.cleanpress.Sign">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Easy, Fast &amp; Clean"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:id="@+id/titleSign"
+        android:layout_marginTop="20dp"
+        android:textColor="#444444"
+        />
+
+    <EditText
+        style="@style/EditTextSign"
+        android:id="@+id/SignName"
+        android:layout_marginTop="80dp"
+        android:inputType="textPersonName"
+        android:hint="Name*"
+        />
+    <EditText
+        style="@style/EditTextSign"
+        android:id="@+id/SignLastname"
+        android:inputType="textPersonName"
+        android:hint="Last Name*"
+        />
+    <EditText
+        style="@style/EditTextSign"
+        android:id="@+id/SignEmail"
+        android:inputType="textEmailAddress"
+        android:hint="E-mail*"
+        />
+    <EditText
+        style="@style/EditTextSign"
+        android:id="@+id/cSignEmail"
+        android:inputType="textEmailAddress"
+        android:hint="Confirm E-mail*"
+        />
+    <EditText
+        style="@style/EditTextSign"
+        android:id="@+id/SignPass"
+        android:inputType="textPassword"
+        android:hint="Password*"
+        />
+    <EditText
+        style="@style/EditTextSign"
+        android:id="@+id/cSignPass"
+        android:inputType="textPassword"
+        android:hint="Confirm Password*"
+        />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="100dp">
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Accept"
+            android:textColor="#666666"
+            android:id="@+id/Terms"
+            android:textSize="14dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="@string/Terms"
+            android:textColor="#333333"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/TermsLink"
+            android:textSize="14dp"
+            android:clickable="true"
+            android:onClick="showTerms"
+            />
+
+    </LinearLayout>
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Create Account"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:background="#c1c2c7"
+            android:id="@+id/bSign"
+            android:onClick="SignUp"
+            android:enabled="false"
+            />
+
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,135 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="400dp"
+            android:background="#fafa"
+            android:orientation="vertical"
+            android:id="@+id/Linear1"
+            >
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:text="Hello World! 1"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:background="#fff"
+                android:layout_marginTop="20dp"
+                android:clickable="true"
+                android:id="@+id/trigger1"
+                />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="160dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:id="@+id/Linear2"
+            android:orientation="vertical"
+            android:background="#afaf"
+            android:visibility="gone"
+
+            >
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:text="Hello World! 2"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:id="@+id/trigger2"
+                android:layout_marginTop="20dp"
+                android:background="#fff"
+                />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="160dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:background="#a44a"
+            android:orientation="vertical"
+            android:id="@+id/Linear3"
+            android:visibility="gone"
+            >
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:text="Hello World! 3"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:background="#fff"
+                android:layout_marginTop="20dp"
+                android:clickable="true"
+                android:id="@+id/trigger3"
+                />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="160dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:id="@+id/Linear4"
+            android:orientation="vertical"
+            android:background="#f1ff11"
+            android:visibility="gone"
+
+            >
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:text="Hello World! 4"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:id="@+id/trigger4"
+                android:layout_marginTop="20dp"
+                android:background="#fff"
+                />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="160dp" />
+        </LinearLayout>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/boton1"
+            android:onClick="Button1"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:background="#03e1ed"
+            />
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:id="@+id/boton2"
+            android:onClick="Button2"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:background="#03e1ed"
+            />
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:id="@+id/boton3"
+            android:onClick="Button3"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:background="#03e1ed"
+            />
+
+    </LinearLayout>
+</ScrollView>

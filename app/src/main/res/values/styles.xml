@@ -1,0 +1,126 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="TextViewsWithBackColor">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:background">#03e1ed</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:drawableRight">@drawable/arrow_down_pr</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:clickable">true</item>
+
+    </style>
+
+    <style name="TextViewsWithBackColorNoArrow">
+                <item name="android:layout_width">fill_parent</item>
+                <item name="android:layout_height">40dp</item>
+                <item name="android:background">#03e1ed</item>
+                <item name="android:textAllCaps">false</item>
+                <item name="android:textSize">20dp</item>
+                <item name="android:textColor">#fff</item>
+                <item name="android:gravity">center</item>
+                <item name="android:paddingLeft">10dp</item>
+                <item name="android:paddingRight">10dp</item>
+    </style>
+
+    <style name="dropdown">
+        <item name="android:showDividers">none</item>
+        <item name="android:dividerHeight">0dp</item>
+        <item name="android:popupBackground">#fff</item>
+        <item name="android:dropDownSelector">#fff</item>
+        <item name="android:textColor">#565656</item>
+        <item name="android:textSize">18dp</item>
+    </style>
+    <style name="TextViewsSchedule">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">#afafaf</item>
+
+    </style>
+
+    <style name="TextviewsBacks">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:background">#03e1ed</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="TextviewsSwitch">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:background">#fff</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColorHint">#afafaf</item>
+        <item name="android:gravity">left</item>
+    </style>
+
+    <style name="EditTexts" parent="Base.TextAppearance.AppCompat">
+        <item name="android:text"></item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:ems">10</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">40dp</item>
+    </style>
+
+    <style name="ButtonsNext">
+        <item name="android:background">#7fe68b</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_marginTop">80dp</item>
+    </style>
+
+    <style name="ButtonsRoundedWhite">
+        <item name="android:background">@drawable/address_button</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:textColor">#afafaf</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="EditTextSign" >
+        <item name="android:ems">10</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#444444</item>
+        <item name="android:textColorHint">#999999</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:paddingTop">10dp</item>
+    </style>
+
+    <style name="MenuItems">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:drawablePadding">15dp</item>
+        <item name="android:paddingLeft">40dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+</resources>

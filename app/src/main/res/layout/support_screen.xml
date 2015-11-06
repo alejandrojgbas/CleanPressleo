@@ -1,0 +1,157 @@
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        tools:context="cleanpress.cleanpress.Support"
+        android:background="#fff">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#fff">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    >
+
+                    <Button
+                    android:id="@+id/call_support"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.3"
+                    android:layout_height="90dp"
+                    android:background="@drawable/call_button"
+                    android:textColor="#fff"
+                    android:layout_marginTop="10dp"
+                    android:drawableTop="@drawable/support_call"
+                    android:paddingTop="18dp"
+                    android:onClick="call"
+                    />
+
+                    <Button
+                        android:id="@+id/twitter_support"
+                        android:layout_width="0dp"
+                        android:layout_weight="0.3"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/sms_button"
+                        android:textAllCaps="false"
+                        android:paddingTop="15dp"
+                        android:textColor="#fff"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="20dp"
+                        android:drawableTop="@drawable/tw_white"
+                        android:onClick="openTweet"
+                        />
+                    <Button
+                        android:id="@+id/fb_support"
+                        android:layout_width="0dp"
+                        android:layout_weight="0.3"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/fb_button"
+                        android:textAllCaps="false"
+                        android:paddingTop="10dp"
+                        android:textColor="#fff"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="20dp"
+                        android:onClick="openFB"
+                        android:drawableTop="@drawable/fb_white"
+                        />
+
+                </LinearLayout>
+
+                <TextView
+                    style="@style/TextViewsWithBackColor"
+                    android:id="@+id/show_faqs"
+                    android:layout_marginTop="10dp"
+                    android:text="FAQ's"
+                    android:onClick="showFaqs"
+                    />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:id="@+id/Faqs">
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="What does Cleanpress do?"
+                    android:textColor="#919191"
+                    android:textSize="16dp"
+                    android:gravity="center"
+                    android:id="@+id/faqs1_t"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:id="@+id/Faqs_1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/faqs1"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#919191"
+
+                    />
+
+                <View
+                    android:id="@+id/division"
+                    android:layout_width="fill_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="20dp"
+                    android:background="#919191"
+                    />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="How do I sign up?"
+                    android:textColor="#919191"
+                    android:textSize="16dp"
+                    android:visibility="gone"
+                    android:gravity="center"
+                    android:id="@+id/faqs2_t"
+                    android:layout_marginTop="20dp"/>
+
+                <TextView
+                    android:id="@+id/Faqs_2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/faqs2"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#919191"/>
+
+                <View
+                    android:id="@+id/division2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="20dp"
+                    android:background="#919191"
+                    />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="How do I sign up?"
+                    android:textColor="#919191"
+                    android:textSize="16dp"
+                    android:gravity="center"
+                    android:id="@+id/faqs3_t"
+                    android:layout_marginTop="20dp"/>
+
+                <TextView
+                    android:id="@+id/Faqs_3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/faqs3"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#919191"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+    </ScrollView>

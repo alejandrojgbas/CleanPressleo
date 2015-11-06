@@ -1,0 +1,42 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff"
+    >
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    tools:context="cleanpress.cleanpress.Dashboard">
+
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="30dp"
+    android:gravity="right"
+    android:text="Welcome, "
+    android:textColor="#444444"
+    android:id="@+id/username"
+    android:layout_marginTop="10dp"/>
+
+    <Button android:text="Dashboard"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="100dp"
+        android:onClick="showDash"
+        android:id="@+id/toDash"
+        />
+    <Button android:text="Request Now"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="100dp"
+        android:onClick="Schedule"
+        android:id="@+id/toRequest"
+        />
+
+</LinearLayout>
+</ScrollView>
